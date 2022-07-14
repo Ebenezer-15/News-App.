@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+
+
+   <div id="search-container" class="containe">
+    <div id="search" class="card card-body  mb-2">
+      <form id="search-form">
+        <nav class="navbar navbar-dark navbar-expand-lg  mb-3" id="top">
+            <span class="navbar-brand"><a href="https://newsapi.org/" target="_blank"> <img src="./news.jpeg" class="news-image"></a></span>
+           
+            
+              <div class="end d-flex">
+                 <input type="text" id="search-input" class="form-control end-input mt-3 me-2" placeholder="Search Term...">
+                 <button type="submit" class="btn btn-dark btn-block mt-3 mr-700 end-submit" id="search-input">Search</button>
+      
+              </div>
+           
+          </div>
+        </nav>
+<br>
+        </div>
+      </form>
+    </div> 
+    <div id="results"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+
+    <script src="./redditapi.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

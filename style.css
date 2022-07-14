@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.news-image{
+    width: 100px;
+}
+/* .end-input{
+    padding-right: 700px;
+} */
+
+/* .end-submit{
+    padding-right: 700px;
+} */
+
+/* .mt-3{
+    margin-right: 700px;
+    background-color: green;
+} */
+.navbar-brand{
+    padding-right:700px;
+}
+
