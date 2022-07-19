@@ -9,7 +9,7 @@ const reddit = {
         .then((data) => {
           console.log(data)
           renderData(data.articles);
-        } )
+        })
         .catch(err => console.log(err));
 
     }
